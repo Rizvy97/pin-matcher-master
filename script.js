@@ -3,6 +3,7 @@ document.getElementById('generate_clicker').addEventListener('click', function (
     const generateRandomNumber = Math.floor(1000 + Math.random() * 9999);
     document.getElementById('generate_input').value = generateRandomNumber;
 });
+// Submit button
 document.getElementById('generateSubmit').addEventListener('click', function () {
     const generateInput = document.getElementById('generate_input').value;
     const generateOutput = document.getElementById('generate_output').value;
